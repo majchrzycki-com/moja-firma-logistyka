@@ -2,7 +2,7 @@
 
 **Agent zleceń transportowych dla polskiej firmy: usługi logistyczne.** Czyta zlecenie transportowe z PDF, sprawdza płatnika, liczy marżę z kosztu trasy i wariant z podwykonawcą, dobiera auto i proponuje decyzję z warunkami.
 
-Pakiet branżowy paczki [moja-firma](https://github.com/majchrzycki-com/moja-firma). Procedura w formacie [Agent Skills](https://agentskills.io/specification) (`SKILL.md`) działa w Claude, ChatGPT i Codex, Microsoft 365 Copilot, Gemini oraz OpenClaw.
+Pakiet branżowy paczki [moja-firma](https://github.com/majchrzycki-com/moja-firma). Procedura w formacie [Agent Skills](https://agentskills.io/specification) (`SKILL.md`) działa w Anthropic Claude, OpenAI ChatGPT i OpenAI Codex, Microsoft 365 Copilot, Google Gemini oraz OpenClaw.
 
 ## Czego agent nie zrobi
 
@@ -26,7 +26,7 @@ Mamy nowe zlecenie. Przeprowadź analizę według instrukcji projektu, licząc k
 
 ## Instalacja
 
-### Claude Code
+### Anthropic Claude Code
 
 ```text
 /plugin marketplace add majchrzycki-com/moja-firma
@@ -39,14 +39,14 @@ Mamy nowe zlecenie. Przeprowadź analizę według instrukcji projektu, licząc k
 node scripts/build.mjs
 ```
 
-Skrypt tworzy `dist/skills/` dla Claude, Codex, OpenClaw i Copilot Cowork oraz `dist/instrukcje/` z tekstem do wklejenia w agencie Microsoft 365 Copilot, Gemie albo projekcie ChatGPT. Szczegóły instalacji w każdym narzędziu: [README rdzenia moja-firma](https://github.com/majchrzycki-com/moja-firma#instalacja).
+Skrypt tworzy `dist/skills/` dla Anthropic Claude, OpenAI Codex, OpenClaw i Microsoft 365 Copilot Cowork oraz `dist/instrukcje/` z tekstem do wklejenia w agencie Microsoft 365 Copilot, Gemie Google Gemini albo projekcie OpenAI ChatGPT. Szczegóły instalacji w każdym narzędziu: [README rdzenia moja-firma](https://github.com/majchrzycki-com/moja-firma#instalacja).
 
 ## Ten sam agent krok po kroku
 
-- [Agent zleceń transportowych w Claude](https://majchrzycki.com/blog/agent-zlecen-transportowych-w-claude-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zlecenie-transportowe)
+- [Agent zleceń transportowych w Anthropic Claude](https://majchrzycki.com/blog/agent-zlecen-transportowych-w-claude-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zlecenie-transportowe)
 - [Agent zleceń transportowych w Microsoft 365 Copilot](https://majchrzycki.com/blog/agent-zlecen-transportowych-w-microsoft-365-copilot-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zlecenie-transportowe)
-- [Agent zleceń transportowych w ChatGPT](https://majchrzycki.com/blog/agent-zlecen-transportowych-w-chatgpt-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zlecenie-transportowe)
-- [Agent zleceń transportowych w Gemini](https://majchrzycki.com/blog/agent-zlecen-transportowych-w-gemini-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zlecenie-transportowe)
+- [Agent zleceń transportowych w OpenAI ChatGPT](https://majchrzycki.com/blog/agent-zlecen-transportowych-w-chatgpt-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zlecenie-transportowe)
+- [Agent zleceń transportowych w Google Gemini](https://majchrzycki.com/blog/agent-zlecen-transportowych-w-gemini-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zlecenie-transportowe)
 
 Gdzie ten agent mieści się w całej firmie i jakich jeszcze agentów potrzebuje usługi logistyczne: [darmowy poradnik branżowy](https://majchrzycki.com/transformacja-agenci-ai/uslugi-logistyczne?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zlecenie-transportowe#pobierz).
 
