@@ -1,0 +1,5 @@
+﻿klient_id;klient;platnik;limit_kredytowy_pln;saldo_naleznosci_pln;w_tym_przeterminowane_pln;najstarsza_zaleglosc_dni;termin_platnosci_umowny_dni;status_wspolpracy
+T-0310;Chłodnie Wielkopolskie sp. z o.o.;Chłodnie Wielkopolskie sp. z o.o.;150000;142000;9800;12;45;stały klient, umowa ramowa
+T-0288;AgroFresh Logistics;AgroFresh Holding GmbH;400000;215600;0;0;60;stały klient
+T-0455;Spedycja Transbox (giełda);Transbox s.r.o.;20000;0;0;0;30;nowy płatnik, bez historii
+T-0199;Mrożonki Północ S.A.;Mrożonki Północ S.A.;250000;261300;38400;41;45;wstrzymane przyjmowanie zleceń

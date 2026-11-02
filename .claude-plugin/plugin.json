@@ -1,0 +1,19 @@
+{
+  "name": "moja-firma-logistyka",
+  "version": "0.1.0",
+  "description": "Agent zleceń transportowych dla polskiej firmy (usługi logistyczne). Czyta zlecenie transportowe z PDF, sprawdza płatnika, liczy marżę z kosztu trasy i wariant z podwykonawcą, dobiera auto i proponuje decyzję z warunkami.",
+  "author": {
+    "name": "Krzysztof Majchrzycki",
+    "url": "https://majchrzycki.com"
+  },
+  "homepage": "https://majchrzycki.com/blog/agent-zlecen-transportowych-w-claude-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zlecenie-transportowe",
+  "repository": "https://github.com/majchrzycki-com/moja-firma-logistyka",
+  "license": "MIT",
+  "keywords": [
+    "msp",
+    "polska",
+    "zlecenie-transportowe",
+    "agent-skills",
+    "skill-md"
+  ]
+}

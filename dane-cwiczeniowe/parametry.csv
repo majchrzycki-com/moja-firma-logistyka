@@ -1,0 +1,5 @@
+﻿parametr;wartosc
+kurs_EUR_PLN_do_kalkulacji;4,30
+minimalna_marza_na_relacji_proc;12
+prog_stawki_ponizej_ktorego_decyduje_kierownik;marża poniżej 12% albo płatnik po limicie
+maks_termin_platnosci_bez_zgody_zarzadu_dni;45
