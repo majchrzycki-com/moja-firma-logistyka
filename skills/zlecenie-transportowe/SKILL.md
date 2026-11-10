@@ -1,6 +1,6 @@
 ---
 name: zlecenie-transportowe
-description: Ocenia zlecenie transportowe (PDF) w firmie transportowej lub spedycyjnej: sprawdza płatnika (limit, saldo, przeterminowane, termin płatności), liczy marżę z kosztu trasy i wariant z podwykonawcą, dobiera auto z floty i proponuje „przyjąć”, „przyjąć pod warunkami” albo „odrzucić”. Użyj, gdy przychodzi zlecenie przewozu lub oferta frachtu, przy pytaniach o stawkę minimalną, limit płatnika albo dobór auta.
+description: "Ocenia zlecenie transportowe (PDF) w firmie transportowej lub spedycyjnej: sprawdza płatnika (limit, saldo, przeterminowane, termin płatności), liczy marżę z kosztu trasy i wariant z podwykonawcą, dobiera auto z floty i proponuje „przyjąć”, „przyjąć pod warunkami” albo „odrzucić”. Użyj, gdy przychodzi zlecenie przewozu lub oferta frachtu, przy pytaniach o stawkę minimalną, limit płatnika albo dobór auta."
 license: MIT
 metadata:
   autor: Krzysztof Majchrzycki
